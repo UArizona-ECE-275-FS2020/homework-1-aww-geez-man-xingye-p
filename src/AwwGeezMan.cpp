@@ -38,11 +38,14 @@ int main (int ac, char** av) {
 	}
 	
 	// Parse the command line arguments
-	
+	./AwwGeezMan {start} {stop} {step} {dimension} where start, stop, and step are integer values while dimension is a string.
 		
 	// Depending on the dimension of the arguments, call the appropriate Morty
 	// function
+	using namespace C137;
+	std::cin.get();
 	
-	
+	using namespace Z286;
+	std::cin.get();
 	return 0;
 }

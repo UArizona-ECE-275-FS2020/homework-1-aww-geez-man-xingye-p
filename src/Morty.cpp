@@ -15,7 +15,7 @@
 // =========================================================================== // 
 namespace C137{
  
- void Morty(int begin, int end, int step){
+ void Morty(int start, int stop, int step){
  std::cout<<"Morty C137 says: "<<endl;
  int i;
  for(i=begin; i<=end; i+=step)
@@ -46,7 +46,7 @@ namespace C137{
 // =========================================================================== // 
  namespace Z286{
  
- void Morty(int begin, int end, int step){
+ void Morty(int start, int stop, int step){
  std::cout<<"Morty Z286 says: "<<endl;
  int i;
  for(i=begin; i<=end; i+=step)
